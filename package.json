@@ -1,0 +1,19 @@
+{
+  "name": "orangehrm-playwright-automation",
+  "version": "1.0.0",
+  "description": "OrangeHRM Employee Lifecycle Automation using Playwright and JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:debug": "npx playwright test --debug",
+    "report": "npx playwright show-report",
+    "clean": "node -e \"require('fs').rmSync('test-results',{recursive:true,force:true}); require('fs').rmSync('playwright-report',{recursive:true,force:true})\""
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.0"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.1"
+  }
+}
