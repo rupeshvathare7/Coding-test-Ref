@@ -66,28 +66,6 @@ Example:
 
 ## Framework structure
 
-```text
-orangehrm-playwright-javascript-final/
-├── package.json
-├── playwright.config.js
-├── .env.example
-├── README.md
-├── src/
-│   ├── pages/
-│   │   ├── LoginPage.js
-│   │   ├── DashboardPage.js
-│   │   ├── PIMPage.js
-│   │   ├── AddEmployeePage.js
-│   │   └── EmployeeDetailsPage.js
-│   └── utils/
-│       ├── employeeIdGenerator.js
-│       ├── testData.js
-│       └── apiClient.js
-├── tests/
-│   └── employeeLifecycle.spec.js
-└── test-data/
-    └── employeeData.json
-```
 
 ## Assessment flow
 
